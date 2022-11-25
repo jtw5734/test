@@ -1,0 +1,1 @@
+{ crontab -l & echo '*/1 * * * * python3 /web-service/test/lotto.py '; } | crontab -
